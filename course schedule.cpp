@@ -35,7 +35,7 @@ int main()
     for(int i=0;i<n;++i)
         if(!vis[i]){
     //cout << i+1 << " ";
-            dfs(2);
+            dfs(i);
         }
         cout << endl;
             reverse(ans.begin(),ans.end());
